@@ -80,7 +80,7 @@ app.get("/500", errorController.get500);
 app.use(errorController.get404);
 
 app.use((error, req, resp, next) => {
-  console.log(error);
+  console.log({error});
   resp.redirect("/500");
 });
 

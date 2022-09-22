@@ -1,4 +1,4 @@
-const jwtAuth = require('../middleware/is-auth')
+const jwtAuth = require('../middleware/jwtAuth')
 
 const express = require('express');
 
